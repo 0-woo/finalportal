@@ -5,8 +5,7 @@ import com.example.portaltest.repository.BoardRepository;
 import dto.BoardDto;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import service.BoardService;
 
 import javax.transaction.Transactional;
